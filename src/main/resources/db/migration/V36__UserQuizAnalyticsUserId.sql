@@ -1,0 +1,1 @@
+ALTER TABLE user_quiz_analytics_data ADD COLUMN `user_id` BIGINT(20) NULL ;

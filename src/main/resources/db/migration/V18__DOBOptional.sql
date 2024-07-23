@@ -1,0 +1,2 @@
+ALTER TABLE `user` 
+CHANGE COLUMN `dob` `dob` DATE NULL ;

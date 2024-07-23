@@ -1,0 +1,6 @@
+CREATE TABLE `user_verification` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `user_id` BIGINT NOT NULL,
+  `otp_code` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
+ALTER TABLE `user` ADD COLUMN `enabled` TINYINT NOT NULL DEFAULT 0;

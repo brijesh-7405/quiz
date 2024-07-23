@@ -1,0 +1,3 @@
+ALTER TABLE `user` 
+ADD COLUMN `password` VARCHAR(128) NOT NULL,
+ADD COLUMN `login_type` VARCHAR(45) NOT NULL;

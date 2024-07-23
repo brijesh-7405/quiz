@@ -1,0 +1,9 @@
+INSERT INTO `category` (`id`,`name`,`description`,`parent_id`,`creation_date`,`modified_date`,`logo_url`) VALUES (1,'Marketing','Marketing',NULL,'2020-09-06 17:08:13','2020-09-06 17:08:13',NULL);
+INSERT INTO `category` (`id`,`name`,`description`,`parent_id`,`creation_date`,`modified_date`,`logo_url`) VALUES (2,'Design','Design',NULL,'2020-09-06 17:08:28','2020-09-06 17:08:28',NULL);
+INSERT INTO `category` (`id`,`name`,`description`,`parent_id`,`creation_date`,`modified_date`,`logo_url`) VALUES (3,'Technology','Technology',NULL,'2020-09-06 17:08:40','2020-09-06 17:08:40',NULL);
+INSERT INTO `category` (`id`,`name`,`description`,`parent_id`,`creation_date`,`modified_date`,`logo_url`) VALUES (4,'Growth Hacking','Growth Hacking',1,'2020-09-06 17:10:31','2020-09-06 17:10:31',NULL);
+INSERT INTO `category` (`id`,`name`,`description`,`parent_id`,`creation_date`,`modified_date`,`logo_url`) VALUES (5,'Digital Marketing','Digital Marketing',1,'2020-09-06 17:10:53','2020-09-06 17:10:53',NULL);
+INSERT INTO `category` (`id`,`name`,`description`,`parent_id`,`creation_date`,`modified_date`,`logo_url`) VALUES (6,'Graphic Design','Graphic Design',2,'2020-09-06 17:11:13','2020-09-06 17:11:13',NULL);
+INSERT INTO `category` (`id`,`name`,`description`,`parent_id`,`creation_date`,`modified_date`,`logo_url`) VALUES (7,'Mobile','Mobile',3,'2020-09-06 17:11:31','2020-09-06 17:11:31',NULL);
+INSERT INTO `category` (`id`,`name`,`description`,`parent_id`,`creation_date`,`modified_date`,`logo_url`) VALUES (8,'Full Stack','Full Stack',3,'2020-09-06 17:11:38','2020-09-06 17:11:38',NULL);
+INSERT INTO `category` (`id`,`name`,`description`,`parent_id`,`creation_date`,`modified_date`,`logo_url`) VALUES (9,'Network','Network',3,'2020-09-06 17:11:49','2020-09-06 17:11:49',NULL);

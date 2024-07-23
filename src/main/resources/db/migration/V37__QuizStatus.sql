@@ -1,0 +1,1 @@
+ALTER TABLE quiz_analytics_data ADD COLUMN quiz_status VARCHAR(25) DEFAULT NULL;

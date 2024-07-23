@@ -1,0 +1,10 @@
+CREATE TABLE `user_answer_analytics_data` (
+  `id` BIGINT NOT NULL AUTO_INCREMENT,
+  `user_id` BIGINT NOT NULL,
+  `userquiz_id` BIGINT NOT NULL,
+  `quiz_id` BIGINT NOT NULL,
+  `question_id` BIGINT NOT NULL,
+  `answer_status` VARCHAR(32) NOT NULL,
+  `creation_date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `modified_date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`));

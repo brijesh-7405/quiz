@@ -1,0 +1,13 @@
+CREATE TABLE `enterprise` (
+  `id` BIGINT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(255) NOT NULL,
+  `logo` VARCHAR(1024) NULL,
+  `about` MEDIUMTEXT NULL,
+  `location` VARCHAR(1024) NULL,
+  `website` VARCHAR(1024) NULL,
+  `contact_person_name` VARCHAR(128) NULL,
+  `contact_email` VARCHAR(256) NULL,
+  `contact_phone` VARCHAR(12) NULL,
+  `creation_date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `modified_date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`));

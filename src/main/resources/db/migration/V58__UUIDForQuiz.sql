@@ -1,0 +1,1 @@
+ALTER TABLE `quiz` ADD COLUMN `uuid` VARCHAR(45);

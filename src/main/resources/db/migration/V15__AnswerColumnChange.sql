@@ -1,0 +1,2 @@
+ALTER TABLE `answers` 
+CHANGE COLUMN `option` `answer` MEDIUMTEXT NOT NULL ;
